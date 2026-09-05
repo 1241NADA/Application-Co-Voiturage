@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f3f3f3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AjouterConducteurController">
+   <children>
+      <VBox layoutX="-3.0" layoutY="-1.0" prefHeight="400.0" prefWidth="606.0" spacing="15" style="-fx-padding: 20;">
+         <!-- Labels et champs de texte avec style amélioré -->
+         <children>
+            <Label style="-fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: #b42c1a;" text="Nom:">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="tfn" prefHeight="26.0" prefWidth="463.0" style="-fx-background-color: white; -fx-border-color: #b42c1a; -fx-border-radius: 5;" />
+
+            <Label style="-fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: #b42c1a;" text="Prenom:">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="tfp" prefHeight="26.0" prefWidth="523.0" style="-fx-background-color: white; -fx-border-color: #b42c1a; -fx-border-radius: 5;" />
+
+            <Label style="-fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: #b42c1a;" text="Adresse e-mail:">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="tfam" style="-fx-background-color: white; -fx-border-color: #b42c1a; -fx-border-radius: 5;" />
+
+            <Label style="-fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: #b42c1a;" text="Adresse:">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="tfad" style="-fx-background-color: white; -fx-border-color: #b42c1a; -fx-border-radius: 5;" />
+
+            <Label style="-fx-font-size: 12px; -fx-font-weight: bold; -fx-text-fill: #b42c1a;" text="Trajets Proposés:">
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </Label>
+            <TextField fx:id="tftp" style="-fx-background-color: white; -fx-border-color: #b42c1a; -fx-border-radius: 5;" />
+
+            <!-- Boutons centrés avec un meilleur style -->
+            <HBox alignment="CENTER" prefHeight="60.0" prefWidth="606.0" spacing="50.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#ClickedEnregistrer" style="-fx-background-color: linear-gradient(to bottom, #b42c1a, #ff5733); -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-padding: 10 20; -fx-border-radius: 5; -fx-background-radius: 5; -fx-cursor: hand;" text="Enregistrer" />
+                  <Button mnemonicParsing="false" onAction="#ClickedSupprimer" style="-fx-background-color: linear-gradient(to bottom, #b42c1a, #ff5733); -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-padding: 10 20; -fx-border-radius: 5; -fx-background-radius: 5; -fx-cursor: hand;" text="Supprimer" />
+               </children>
+               <padding>
+                  <Insets left="60.0" />
+               </padding>
+            </HBox>
+         </children>
+      </VBox>
+
+      <!-- TableView sous le formulaire -->
+      <TableView fx:id="tableConducteurs" layoutX="17.0" layoutY="462.0" prefHeight="90.0" prefWidth="762.0" style="-fx-background-color: white; -fx-border-color: #b42c1a; -fx-border-radius: 5;">
+         <columns>
+            <TableColumn fx:id="colNom" prefWidth="150.0" text="Nom" />
+            <TableColumn fx:id="colPrenom" prefWidth="150.0" text="Prénom" />
+            <TableColumn fx:id="colEmail" prefWidth="150.0" text="Email" />
+            <TableColumn fx:id="colAdresse" prefWidth="150.0" text="Adresse" />
+            <TableColumn fx:id="colTrajets" prefWidth="150.0" text="Trajets" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

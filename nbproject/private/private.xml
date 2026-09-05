@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck2/Trajet.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/AjouterTrajetCourtController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck2/Paiement.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/view/AjouterTrajetCourt.fxml</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/Exception/PaiementInvalidException.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck1/Passager.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/Exception/AdresseInvalideException.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/view/ReserverTrajet.fxml</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/view/PaiementTrajet.fxml</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/CovAccueilFXMLController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/EvaluationController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/AjouterVehiculeController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/PaiementTrajetController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/view/AjouterTrajetLong.fxml</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck1/Conducteur.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck2/Reservation.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck2/GestionTrajet.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck2/Vehicule.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/view/AjouterPassager.fxml</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/Record/HistoriqueTrajetRecord.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck2/TrajetLong.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/Exception/DateInvalideException.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/view/AjouterVehicule.fxml</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/AjouterConducteurController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/AjouterTrajetLongController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/AjouterPassagerController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck1/HistoriqueTrajet.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/Record/VehiculeRecord.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck1/Adresse.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck2/TrajetCourt.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/ApplicationCoVoiturage.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck1/Utilisateurs.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/view/AjouterConducteur.fxml</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck1/Evaluation.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/controller/ReserverTrajetController.java</file>
+            <file>file:/C:/Users/ajeln/OneDrive/Bureau/projet%20java/Application-Co-Voiturage/src/model/pck1/Date.java</file>
+        </group>
+    </open-files>
+</project-private>

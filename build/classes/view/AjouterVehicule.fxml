@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AjouterVehiculeController">
+   <children>
+      <VBox layoutX="10.0" layoutY="10.0" prefHeight="600.0" prefWidth="780.0" spacing="20.0">
+         <!-- Titre centré et stylisé -->
+         <Label alignment="CENTER" prefHeight="46.0" prefWidth="780.0" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Ajouter un Véhicule" textFill="#c11212">
+            <VBox.margin>
+               <Insets top="20.0" />
+            </VBox.margin>
+         </Label>
+         
+         <!-- Modèle -->
+         <Label style="-fx-font-weight: bold; -fx-font-size: 12px;" text="Modèle:" />
+         <TextField fx:id="tfm" prefHeight="26.0" prefWidth="463.0" style="-fx-border-color: #c11212; -fx-border-radius: 5px;" />
+
+         <!-- Marque -->
+         <Label style="-fx-font-weight: bold; -fx-font-size: 12px;" text="Marque:" />
+         <TextField fx:id="tfma" prefHeight="26.0" prefWidth="523.0" style="-fx-border-color: #c11212; -fx-border-radius: 5px;" />
+
+         <!-- Immatriculation -->
+         <Label style="-fx-font-weight: bold; -fx-font-size: 12px;" text="Immatriculation:" />
+         <TextField fx:id="tfim" style="-fx-border-color: #c11212; -fx-border-radius: 5px;" />
+
+         <!-- Capacité -->
+         <Label style="-fx-font-weight: bold; -fx-font-size: 12px;" text="Capacité:" />
+         <TextField fx:id="tfc" style="-fx-border-color: #c11212; -fx-border-radius: 5px;" />
+
+         <!-- TableView -->
+         <TableView fx:id="tableVehicules" prefHeight="200.0" prefWidth="780.0">
+            <columns>
+               <TableColumn fx:id="colModele" text="Modèle" prefWidth="150.0" />
+               <TableColumn fx:id="colMarque" text="Marque" prefWidth="150.0" />
+               <TableColumn fx:id="colImmatriculation" text="Immatriculation" prefWidth="200.0" />
+               <TableColumn fx:id="colCapacite" text="Capacité" prefWidth="100.0" />
+            </columns>
+         </TableView>
+
+         <!-- Boutons Enregistrer et Supprimer -->
+         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="780.0" spacing="40.0">
+            <children>
+               <Button mnemonicParsing="false" onAction="#ClickedEnregistrer" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #c11212; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 5px;" text="Enregistrer" />
+               <Button mnemonicParsing="false" onAction="#ClickedSupprimer" prefHeight="40.0" prefWidth="120.0" style="-fx-background-color: #c11212; -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-border-radius: 5px;" text="Supprimer" />
+            </children>
+         </HBox>
+      </VBox>
+   </children>
+</AnchorPane>

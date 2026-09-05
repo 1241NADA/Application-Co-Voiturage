@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #f3f3f3;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AjouterTrajetController">
+   <children>
+      <BorderPane prefHeight="400.0" prefWidth="600.0">
+         <!-- En-tête -->
+         <top>
+            <VBox alignment="CENTER" prefHeight="80.0" prefWidth="600.0" style="-fx-background-color: #b42c1a; -fx-padding: 10; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 4);">
+               <children>
+                  <Label alignment="CENTER" style="-fx-font-size: 24px; -fx-font-weight: bold;" text="Ajouter un Trajet" textFill="white" />
+               </children>
+            </VBox>
+         </top>
+
+         <!-- Contenu principal -->
+         <center>
+            <SplitPane dividerPositions="0.5" orientation="VERTICAL" prefHeight="320.0" prefWidth="600.0" style="-fx-padding: 20;">
+               <items>
+                  <!-- Trajet court -->
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="600.0" style="-fx-background-color: rgba(255, 255, 255, 0.9); -fx-border-color: #b42c1a; -fx-border-radius: 10; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 4);">
+                     <children>
+                        <Label layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="561.0" style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Ajoutez votre trajet court , pour un déplacement rapide et efficace" textFill="#b42c1a">
+                           <font>
+                              <Font size="10.0" />
+                           </font></Label>
+                        <Button layoutX="230.0" layoutY="80.0" mnemonicParsing="false" onAction="#ClickedAjouterTrajetCourt" style="-fx-background-color: linear-gradient(to bottom, #b42c1a, #ff5733); -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-padding: 10 20; -fx-border-radius: 5; -fx-background-radius: 5; -fx-cursor: hand;" text="Ajouter Un Trajet Court" />
+                     </children>
+                  </AnchorPane>
+
+                  <!-- Trajet long -->
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="600.0" style="-fx-background-color: rgba(255, 255, 255, 0.9); -fx-border-color: #b42c1a; -fx-border-radius: 10; -fx-background-radius: 10; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 4);">
+                     <children>
+                        <Label layoutX="20.0" layoutY="20.0" style="-fx-font-size: 14px; -fx-font-weight: bold;" text="Définissez votre trajet long, idéal pour les voyages interurbains " textFill="#b42c1a" />
+                        <Button layoutX="230.0" layoutY="80.0" mnemonicParsing="false" onAction="#ClickedAjouterTrajetLong" style="-fx-background-color: linear-gradient(to bottom, #b42c1a, #ff5733); -fx-text-fill: white; -fx-font-size: 14px; -fx-font-weight: bold; -fx-padding: 10 20; -fx-border-radius: 5; -fx-background-radius: 5; -fx-cursor: hand;" text="Ajouter Un Trajet Long" />
+                     </children>
+                  </AnchorPane>
+               </items>
+            </SplitPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
